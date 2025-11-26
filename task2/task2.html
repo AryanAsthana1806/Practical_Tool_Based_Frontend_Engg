@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", Arial, sans-serif;
+            background: linear-gradient(135deg, #A1C4FD, #C2E9FB);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            background: #ffffffcc;
+            backdrop-filter: blur(8px);
+            padding: 30px 40px;
+            width: 420px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+            animation: fadeIn 1s ease;
+        }
+
+        h2 {
+            color: #004C92;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        p {
+            margin-top: 18px;
+            font-size: 17px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h2>My Favorite Place</h2>
+
+        <img 
+            src="https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?cs=srgb&dl=beach-exotic-holiday-248797.jpg&fm=jpg" 
+            alt="A beautiful beach with white sand and blue water"
+        >
+
+        <p>
+            This beach is my favorite place because the sound of the waves is
+            incredibly relaxing, and the sunsets here are absolutely breathtaking.
+            It's the perfect spot to unwind and clear my mind.
+        </p>
+    </div>
+</body>
+</html>
+
